@@ -1,0 +1,510 @@
+
+body {
+    position: relative;
+    padding-top: 80px;
+     background-color:#f8f8f8;
+}
+
+
+
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 55px;
+    padding: 3px 0;
+    width: 200px;
+}
+
+.navbar {
+    /*margin-bottom: 0;*/
+    /* height: 100px;*/
+    box-shadow: 0px -4px 20px black;
+}
+
+
+
+
+
+.navegador .nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 15px; 
+    
+}
+
+.navegador .nav>li>a:hover {
+    
+        color: rgb(200,8,8);
+    
+    
+}
+
+
+
+
+.navegador .nav>li>.menu{
+    color: #fff;!important
+}
+
+#nav-new{
+ background-color: rgba(8,8,8,.8);!important
+}
+
+
+
+.navegador .navbar-toggle {
+    padding: 10px;
+    
+}
+
+
+
+
+/* Carousel Fading slide */
+.carousel-fade .carousel-inner { background: #000; }
+.carousel-fade .carousel-control { z-index: 2; }  
+.carousel-fade .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  }
+
+  .carousel-fade .next.left,
+  .carousel-fade .prev.right,
+  .carousel-fade .item.active { opacity: 1; }
+
+  .carousel-fade .active.left,
+  .carousel-fade .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    }
+
+
+/* Safari Fix */
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+/* Carousel Control custom */
+.carousel-control .control-icon {
+  font-size: 48px;
+  height: 30px;
+  margin-top: -15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  }
+  .carousel-control .prev { margin-left:  -15px;  left: 50%; } /* Prev */
+  .carousel-control .next { margin-right: -15px; right: 50%; } /* Next */
+
+
+/* Removing BS background */
+.carousel .control-box { opacity: 0; }
+a.carousel-control.left  { left: 0; background: none; border: 0;}
+a.carousel-control.right { right: 0; background: none; border: 0;}
+
+
+/* Animation */
+.control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;   
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+  /* Assigning animation to indicator li will make slides flicker */
+  } 
+
+
+/* Hover animation */
+.carousel:hover .control-box { opacity: 1; }
+.carousel:hover a.carousel-control.left { left: 15px; }
+.carousel:hover a.carousel-control.right { right: 15px; }  
+
+
+/* Carouse Indicator */
+.carousel-indicators li.active,
+.carousel-indicators li { border: 0; }
+
+.carousel-indicators li {
+  background: #666;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+
+.carousel-indicators li.active {
+  background: #fff;
+  margin: 0 3px;
+  }
+
+
+
+
+.carousel-inner>.item>#img1{
+  width: 100%;
+  height: 280px;
+  content: url("../img/banner1.png");
+}
+
+.carousel-inner>.item>#escrito1{
+  position: absolute;
+  top: 115px;
+  left: 160px;
+  width: 320px;
+  height: 100px;
+  content: url("../img/banner-escrito1.png");
+}
+
+
+
+.carousel-inner>.item>#img2{
+  width: 100%;
+  height: 280px;
+  content: url("../img/banner2.png");
+}
+
+.carousel-inner>.item>#escrito2{
+  position: absolute;
+  top: 115px;
+  left: 160px;
+  width: 320px;
+  height: 100px;
+  content: url("../img/banner-escrito2.png");
+}
+
+.main-slider{
+    top: -82px;
+    position: relative;
+    left: -1px;
+}
+
+
+.painel{
+   position: relative;
+    top: -82px;
+    border-radius: 0;
+}
+.well{
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+
+
+.painel-pesquisa{
+  padding: 0;
+}
+
+.tituloSessoes {
+    text-align: center;
+    color: #666;
+}
+
+
+.prest {
+    text-align: center;
+    font-size: 17px;
+}
+
+#headerPesquisa {
+    position: relative;
+    font-size: 27px;
+}
+
+.btPesquisa {
+    margin-top: 20px;
+}
+
+.retorno {
+    position: fixed;
+    right: 10px;
+    font-size: 40px;
+    z-index: 200;
+    line-height: 0;
+}
+
+.retorno a {
+    text-decoration: none;
+}
+
+.retorno h5 {
+    margin: 0;
+}
+
+
+/* painel top prestadores */
+.img-corte {
+    max-width:100px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+
+
+#caption-box{
+  width: 100%;                   
+  overflow: hidden;    
+  text-overflow:ellipsis;
+}
+
+
+.img-corte-Prestadores{
+  max-width:100px;
+  width: auto;
+  height: 100px;
+}
+
+.thumbnail-prestadores>img{
+  height: 100px;
+}
+
+.bt-verOferta{
+    width: 90%;
+
+}
+
+.bt-verPrestador{
+    width: 90%;
+
+}
+.bt-addfavorito{
+    width: 90%;
+    
+}
+
+.star-fav{
+  color: #2dec0c;
+  text-shadow: 1px 1px 1px #666;
+}
+/*-------------*/
+
+.thumbnail{
+    
+    border-radius: 10px;
+    border-color: #b1b0b0;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.3);
+    
+    height: 250px;
+}
+
+.thumbnail-prestadores{
+  border-radius: 8px;
+    border-color: #b1b0b0;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.3);
+    height: 200px;
+
+}
+.thumbnail .caption
+{
+    text-align: center;
+}
+
+.thumbnail-prestadores .caption{
+  text-align: center;
+}
+
+
+
+
+.thumbnail #caption-prestador-oferta{
+  text-align: center;
+}
+
+.thumbnail-prestadores #caption-prestador{
+  text-align: center;
+}
+
+.teste{
+  
+  width: 100%;
+}
+
+
+.thumbnail-botoes{
+  width: 100%;
+  bottom: 15px;
+  position: absolute;
+  left: 40px;
+}
+
+.thumbnail-botoes-busca{
+  width: 100%;
+  bottom: 15px;
+  position: absolute;
+  left: 41px;
+}
+
+.thumbnail-botoes .bts, .thumbnail-botoes-busca .bts{
+padding: 0 3px;
+}
+
+.btAvancado{
+      top: 20px;
+    }
+
+footer{
+  width: 100%;
+  background-color: rgb(25,25,25);
+  box-shadow: 0 -1px 28px -3px rgba(136, 134, 134, 0.64);
+}
+
+footer .footer-logo
+{
+  color: #f8f8f8;
+}
+footer .footer-texto{
+  color:#7b7878;
+}
+footer .footer-email{
+  text-align: right;
+  color: #646464;
+}
+
+footer a{
+  padding: 0 10px 0 10px;
+}
+
+
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1680px) {
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 11pt;
+    }
+        .navbar-brand>img {
+    position: relative;
+    left: 55px;
+}
+}
+
+@media screen and (max-width: 980px) {
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    body,
+    input,
+    select,
+    textarea {
+        font-size: 12pt;
+    }
+
+
+    .carousel-inner>.item>#img1{
+  width: 100%;
+  height: 315px;
+  content: url("../img/banner1.png");
+  filter: blur(2px);
+}
+.carousel-inner>.item>#img2{
+  width: 100%;
+  height: 315px;
+  content: url("../img/banner2.png");
+   filter: blur(2px);
+}
+
+
+}
+
+@media screen and (max-width: 480px) {
+    
+    .categoria,
+    .SelEstado,
+    .SelCidade {
+        margin-top: 7px;
+    }
+    .cbCategoria {
+        left: 22px;
+    }
+    .cbEstado {
+        left: 50px;
+    }
+    .cbCidade {
+        left: 54px;
+    }
+    .btPesquisar {
+        width: 100%;
+    }
+
+
+
+.carousel-inner>.item>#escrito1{
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  width: 320px;
+  height: 100px;
+  content: url("../img/banner-escrito1.png");
+}
+
+
+
+
+
+
+
+.carousel-inner>.item>#escrito2{
+  position: absolute;
+  top: 130px;
+  left: 0;
+  width: 320px;
+  height: 100px;
+  content: url("../img/banner-escrito2.png");
+}
+
+
+}

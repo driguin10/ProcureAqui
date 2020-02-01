@@ -1,0 +1,73 @@
+.painel{
+	position: relative;
+	top: -24px;
+}
+
+.well{
+	margin-bottom: 0;
+}
+
+.nav-tabs.centered > li, .nav-pills.centered > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    text-align:center;
+    position: relative;
+    top: -45px;
+}
+
+.bt-mais{
+	text-align:center;
+    position: relative;
+    top: -11px; 
+    width: 100%;
+}
+
+#bt-carregaMais{
+	 float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */ 
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+ .painel{
+	position: relative;
+	top: -24px;
+} 
+}
+
+@media screen and (max-width: 780px) {
+  .painel{
+	position: relative;
+	top: -24px;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+  .painel{
+	position: relative;
+	top: -15px;
+}
+
+.nav-tabs.centered, .nav-pills.centered {
+    top: -35px;
+} 
+}
+
+@media screen and (max-width: 736px) {
+  .painel{
+	position: relative;
+	top: -15px;
+}
+
+ 
+}

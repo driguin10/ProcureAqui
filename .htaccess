@@ -1,0 +1,32 @@
+ErrorDocument 404 			/procureaqui/view/404.php
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^$												view/index.php
+	RewriteRule ^login/?$									view/login.php
+	RewriteRule ^logout/?$								controller/logout.php
+	RewriteRule ^logar/?$									controller/logar.php
+	RewriteRule ^dashboard/?$							view/dashboard.php
+	RewriteRule ^municipios/?$						controller/municipios.php
+	RewriteRule ^cadUsuarios/?$						view/cadastraUsuario.php
+	RewriteRule ^finalizaCadastro/?$			controller/finalizaCadastro.php
+	RewriteRule ^excluirConta/?$					controller/excluirConta.php
+	RewriteRule ^manutencaoOferta/?$			controller/manutencaoOferta.php
+	RewriteRule ^manutencaoServico/?$			controller/manutencaoServico.php
+	RewriteRule ^manutencaoFavorito/?$		controller/manutencaoFavorito.php
+	RewriteRule ^manutencaoAssinatura/?$	controller/manutencaoAssinatura.php
+	RewriteRule ^manutencaoPrestador/?$		controller/manutencaoPrestador.php
+	RewriteRule ^categorias/?$						controller/categorias.php
+	RewriteRule ^avalia/?$								controller/avalia.php
+	RewriteRule ^busca/?$									view/busca.php
+	RewriteRule ^buscaCarregaMais/?$			controller/buscaCarregaMais.php
+	RewriteRule ^favoritos/?$							view/dashboard.php?aba=fav
+	RewriteRule ^#favoritos/?$						view/dashboard.php?aba=fav
+
+	RewriteRule ^#topPrestadores/?$						view/index.php
+	RewriteRule ^#ofertas/?$						view/index.php
+	RewriteRule ^ServerOfertasSemana/?$						controller/serverOfertasSemana.php
+
+	RewriteRule ^exibir/?([a-zA-Z0-9_-]+)/([0-9]+)$				view/exibir.php?type=$1&id=$2
+</IfModule>
+

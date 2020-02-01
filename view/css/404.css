@@ -1,0 +1,36 @@
+.img-404 img{
+	width: 100%;
+	
+}
+
+.img-404{
+	margin: 0;
+}
+
+body{
+	margin: 0;
+	background-color: #a7acb2;
+	border:0;
+}
+
+.textoErro{
+	width: 100%;
+
+position: absolute;
+
+}
+
+.textoErro h2,.textoErro h1{
+	text-align: center;
+}
+
+
+.textoErro a{
+	color: #ffdf1e;
+	text-decoration: none;
+}
+.textoErro a:hover{
+	color: #d4d2c6;
+	
+}
+

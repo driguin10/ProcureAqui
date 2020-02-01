@@ -1,0 +1,236 @@
+.info-assinatura{
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+.nav-tabs>li.active>a{
+  background-color:#f8f8f8;
+}
+
+
+
+.painels{
+     background-image: url("/procureaqui/view/img/Painel-dashboard.jpg");
+     position: relative;
+     height: 150px;
+     top: -29px;
+    
+}
+
+
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs{
+      top: -71px;
+    position: relative;
+}
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.tab-content{
+  position: relative;
+  top: -65px;
+
+}
+
+.acoesBt{
+  text-align: center;
+}
+
+.add-Serv{
+  margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.add-Ofert{
+  margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.file-upload-cadoferta , .file-upload-cadservico , .file-upload-editoferta , .file-upload-editservico {
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.file-upload-btn-cadoferta, .file-upload-btn-cadservico, .file-upload-btn-editoferta, .file-upload-btn-editservico {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #337ab7;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #475058;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn-cadoferta:hover, .file-upload-btn-cadservico:hover, .file-upload-btn-editoferta:hover, .file-upload-btn-editservico:hover {
+  background: #365671;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn-cadoferta:active , .file-upload-btn-cadservico:active, .file-upload-btn-editoferta:active , .file-upload-btn-editservico:active{
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content-cadoferta, .file-upload-content-cadservico, .file-upload-content-editoferta, .file-upload-content-editservico  {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input-cadoferta, .file-upload-input-cadservico, .file-upload-input-editoferta, .file-upload-input-editservico {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap-cadoferta, .image-upload-wrap-cadservico, .image-upload-wrap-editoferta, .image-upload-wrap-editservico {
+  margin-top: 20px;
+  border: 4px dashed #337ab7;
+  position: relative;
+}
+
+.image-dropping,
+.image-upload-wrap-cadoferta:hover, .image-upload-wrap-cadservico:hover, .image-upload-wrap-editoferta:hover, .image-upload-wrap-editservico:hover {
+  background-color: rgba(51, 122, 183, 0.33);
+  border: 4px dashed #ffffff;
+}
+
+.image-title-wrap-cadoferta,.image-title-wrap-cadservico, .image-title-wrap-editoferta,.image-title-wrap-editservico  {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text-cadoferta, .drag-text-cadservico, .drag-text-editoferta, .drag-text-editservico{
+  text-align: center;
+}
+
+.drag-text-cadoferta h3 ,.drag-text-cadservico h3, .drag-text-editoferta h3 ,.drag-text-editservico h3{
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #337ab7;
+  padding: 60px 0;
+}
+
+.file-upload-image-cadoferta, .file-upload-image-cadservico, .file-upload-image-editoferta, .file-upload-image-editservico {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.remove-image-cadoferta, .remove-image-cadservico, .remove-image-editoferta, .remove-image-editservico {
+  width: 200px;
+  margin: 0;
+  color: #fff;
+  background: #cd4535;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #b02818;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.remove-image-cadoferta:hover,  .remove-image-cadservico:hover, .remove-image-editoferta:hover,  .remove-image-editservico:hover {
+  background: #c13b2a;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.remove-image-cadoferta:active ,  .remove-image-cadservico:active, .remove-image-editoferta:active ,  .remove-image-editservico:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+
+.sem-servico{
+  font-size: 14px;
+  padding-top: 130px;
+  text-align: center;
+  
+}
+
+.sem-oferta{
+  font-size: 14px;
+  padding-top: 190px;
+  text-align: center;
+  
+}
+
+.sem-favoritos{
+  font-size: 14px;
+  padding-top: 190px;
+  text-align: center;
+  
+}
+
+
+#caption-box{
+  width: 100%;                   
+  overflow: hidden;    
+  text-overflow:ellipsis;
+}
+
+
+.tabs-edit{
+  position: relative;
+  top: 55px;
+}
+
+
+
+.visivel0{
+ background-color:  rgba(0, 0, 0, 0.19);
+}
+
+.vencido1{
+   background-color:  rgba(253, 4, 74, 0.19);
+}
+
+
+
+
+.badge-servico{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 10px;
+    
+}
+
+
+.badge-servico .badge{
+  color: #03f544;
+    background-color: #151414;
+}
+
